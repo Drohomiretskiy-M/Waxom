@@ -71,46 +71,73 @@ nav {
 	background-color: #fbfaf8;
 	text-align: center;
 }
-.relize h3{
+
+.relize h3 {
 	margin: 80px 0 30px 0;
-	
- }
+}
+
 
 }
-.relize h6{
+.relize h6 {
 	margin-bottom: 15px;
 	font-size: 16px;
-  font-family: "Myriad Pro";
-  color: #8c8c8c;
+	font-family: "Myriad Pro";
+	color: #8c8c8c;
+}
+.textbox{
+	color: #fff;
+	padding-top: 50px;
+}
+.textbox span {
+	color: #998675;
 }
 
+.btntb {
+	
+	position: relative;
+	top: -65px;
+	padding: 20px 45px;
+	background-color: #998675;
+	border: 1px solid #998675;
+	float: right;
+}
+.btntb:hover {
+	background-color: #d49a65;
+}
 @media screen and (max-width: 1200px) {
 	.slider {
 		margin-top: 85px;
 	}
+	
 	.btn {
 		margin: 5px 0;
 	}
 }
-
 @media screen and (max-width: 992px) {
 	.slider {
 		margin-top: 5px;
 	}
+	
+	.relize {
+		height: 80px;
+	}
+	
 	.relize img {
 		display: none;
 	}
-	.relize h3{
-	margin: 10px 0 5px 0;
+	
+	.relize h3 {
+		margin: 10px 0 5px 0;
+	}
 }
-}
-
 @media screen and (max-width: 767px) {
 	.slider {
 		display: none;
 	}
 }
-
 @media screen and (max-width: 540px) {}
-
 @media screen and (max-width: 480px) {}
+.textbox {
+	height: 150px;
+	background-color: #412c23;
+}
