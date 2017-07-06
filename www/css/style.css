@@ -84,16 +84,14 @@ nav {
 	font-family: "Myriad Pro";
 	color: #8c8c8c;
 }
-.textbox{
+.textbox {
 	color: #fff;
 	padding-top: 50px;
 }
 .textbox span {
 	color: #998675;
 }
-
 .btntb {
-	
 	position: relative;
 	top: -65px;
 	padding: 20px 45px;
@@ -134,10 +132,88 @@ nav {
 	.slider {
 		display: none;
 	}
+	
+	.gallery {
+		text-align: center;
+	}
 }
 @media screen and (max-width: 540px) {}
 @media screen and (max-width: 480px) {}
 .textbox {
 	height: 150px;
 	background-color: #412c23;
+}
+.latestpj {
+	height: 1164px;
+}
+.titledl {
+	text-align: center;
+}
+.titledl h3 {
+	font-size: 30px;
+	font-family: "Myriad Pro";
+	color: #545454;
+}
+.titledl h6 {
+	font-size: 16px;
+	font-family: "Myriad Pro";
+	color: #8c8c8c;
+}
+.gallery {
+	height: 1180px;
+}
+.gallery img {
+	max-width: 100%;
+}
+.btng {
+	padding: 15px 25px;
+	margin-top: 50px;
+	border: 1px solid #8c8c8c;
+	color: #8c8c8c;
+	background-color: #fff;
+	border-radius: 3px;
+}
+.btng:hover {
+	background-color: #998675;
+	color: #fff;
+}
+.project {
+	margin-top: 20px;
+}
+.project img {
+	margin-bottom: 0;
+	width: 100%;
+}
+.pjheader:hover {
+	background-color:  #362f2d;
+	color: #fff;
+}
+
+.pjheader {
+	padding: 10px;
+	height: 100px;
+	background-color: #fbfaf8;
+}
+.pjheader h6 {
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: #d1d1d1;
+}
+.pjheader h3 {
+	margin: 0;
+	font-size: 20px;
+	font-family: "Myriad Pro";
+	color: #c7b299;
+}
+.btnpj {
+	
+	margin: 100px auto;
+	padding: 20px 45px;
+	background-color: #998675;
+	border: 1px solid #998675;
+	border-radius: 3px;
+}
+
+.btngal {
+	text-align: center;
 }
